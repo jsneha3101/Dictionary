@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Dictionary",
+    "description":"A chrome extension that enables users to get the meaning, pronunciation, examples, and synonyms of any English word.",
+    "version": "1.0.1",
+     "icons":{
+        "128": "icon.png"
+    },
+    "action":{
+    "default_popup": "index.html"
+    },
+    "permissions": ["activeTab"]
+}
